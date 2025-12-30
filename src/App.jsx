@@ -137,6 +137,21 @@ export default function App() {
             </p>
 
             <TrustPills />
+            <div className="mt-4 inline-flex items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50/40 px-4 py-2 text-sm">
+              <span className="text-amber-300">★</span>
+              <p className="text-stone-700">
+                Currently in use on{" "}
+                <a
+                  href="https://goldenhourcleaningco.com/residential"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-stone-900 underline underline-offset-2 hover:text-stone-900"
+                >
+                  Golden Hour Cleaning Co.
+                </a>
+                ’s website.
+              </p>
+            </div>
 
             {/* Scroll cue */}
             <button
@@ -153,9 +168,19 @@ export default function App() {
             <IphoneMockup imageSrc={demoImage} href={DEMO_URL} />
           </div>
         </div>
-
-
         <div className="mt-8 mb-8 h-px w-full bg-stone-200" />
+        {/* <p className="mt-3 mb-3 text-sm text-stone-600">
+          Currently powering quotes for:{" "}
+          <a
+            href="https://goldenhourcleaningco.com/residential"
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold text-stone-900 underline underline-offset-2 hover:text-stone-900"
+          >
+            Golden Hour Cleaning Co.
+          </a>{" "}
+          (custom quote calculator on their site).
+        </p> */}
 
         <div id="features" />
         <Card>
