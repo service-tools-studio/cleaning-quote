@@ -394,16 +394,73 @@ export default function App() {
           </p>
         </Card>
 
-        <SectionTitle>Beta pricing</SectionTitle>
+        <SectionTitle>Pricing</SectionTitle>
         <Card>
           <p className="text-sm text-stone-600">
             <span className="font-semibold text-stone-900">
-              Beta setup (first 3 clients): $297
+              Beta Program: $297 one-time <i>(3 spots only)</i>
             </span>
           </p>
-          <p className="mt-2 text-sm text-stone-600">
-            After beta: pricing will increase.
-          </p>
+          <div className="mt-2 mb-2 text-sm text-stone-600">
+            I'm looking for 3 cleaning business owners to join as beta clients at this heavily discounted rate. In exchange, I ask for:
+            <ul className="mt-2 mb-2 space-y-2 text-sm text-stone-600">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">📝</span>
+                <span>Your honest feedback as I refine the tool</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">📸</span>
+                <span>Permission to showcase your business as a case study</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">💬</span>
+                <span>
+                  A testimonial if it works well for your business
+                  <span className="text-xs text-stone-500"> (no obligation if you’re not satisfied)</span>
+                </span>
+              </li>
+            </ul>
+
+            <p className="mt-3 font-medium text-stone-800">What you get:</p>
+
+            <ul className="mt-2 mb-4 space-y-2 text-sm text-stone-600">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">⚙️</span>
+                <span>Full done-for-you setup customized to your pricing</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">🤝</span>
+                <span>Priority support during setup + 30 days after</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">🔁</span>
+                <span>All future updates and improvements included</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5">🔒</span>
+                <span>Lock in this price forever — no recurring fees</span>
+              </li>
+            </ul>
+            <div className="mt-4 rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+              <p className="text-xs uppercase tracking-wide text-emerald-700">
+                Beta-only pricing
+              </p>
+
+              <div className="mt-1 flex items-baseline gap-3">
+                <span className="text-sm text-emerald-700 font-semibold">
+                  $297
+                </span>
+                <span className="text-xs text-stone-500 line-through">
+                  $1,500
+                </span>
+              </div>
+              <p className="mt-2 text-xs text-stone-600">
+                A one-time opportunity to get the full tool at a steep discount while helping shape the product.
+                Once the 3 beta spots are filled, pricing will return to standard rates.
+              </p>
+            </div>
+
+          </div>
         </Card>
 
         <SectionTitle>Want this for your business?</SectionTitle>
